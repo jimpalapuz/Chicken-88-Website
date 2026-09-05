@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/jpg" href="images/logo/logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/016bc9e7b5.js" crossorigin="anonymous"></script>
+    <title>Chicken 88</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <div>
+            <img src="images/logo/logo.jpg" alt="Chicken 88 Logo">
+            <h1>CHICKEN 88<span>boneless fried chicken</span></h1>
+        </div>
+
+        <!--NAVIGATION BAR-->
+        <nav>
+            <ul>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#flavors">Flavors</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--MAIN-->
+    <main>
+        <!--HERO SECTION-->
+        <section id="hero-section">
+            <span><i class="fa-solid fa-location-dot"></i> Roxas &middot; Isabela</span>
+            <h1>Super <span>Boneless</span> Fried<br>Chicken</h1>
+            <p>100% bone-free &middot; crispy & juicy &middot; 12 flavors</p>
+            <ul>
+                <li>Dine-in</li>
+                <li>Takeout</li>
+                <li>Delivery</li>
+            </ul>
+            <div>
+                <button id="hero-contact" onclick="contact()"><i class="fa-solid fa-phone"></i> +63 960 566 1691</button>
+                <button id="hero-message" onclick="sendSMS()"><i class="fa-solid fa-message"></i> Message Us</button>
+            </div>
+        </section>
+
+        <!--ABOUT US-->
+        <section id="about-us" class="fade-up">
+            <span class="section">ABOUT US</span>
+            <h1 class="section-title">Why Chicken 88?</h1>
+            <p class="section-description">We're Roxas, Isabela's favorite spot for boneless fried chicken &mdash;<br>serving quality flavors since day one.</p>
+                <ul>
+                    <li>
+                        <h1>100% Boneless</h1>
+                        <p>Every peice is carefully deboned so you can enjoy crispy, juicy fired chicken without the hassle. Pure meat, pure flavor.</p>
+                    </li>
+                    <li>
+                        <h1>12 Signature Flavors</h1>
+                        <p>From Honey Butter to Fiery Buffalo, we offer a flavor for every craving. Mix and match in out boxes and party trays.</p>
+                    </li>
+                    <li>
+                        <h1>"Sulit Meals</h1>
+                        <p>Unlimited rice & soup with every Sulit Meal. No sharing, just pure satisfaction. Perfect for the hungry Pinoy.</p>
+                    </li>
+                    <li>
+                        <h1>Party-Ready Trays</h1>
+                        <p>Up to 5 flavors in one tray. Whether it's 30, 40 or 50 pieces, we make every gathering extra special.</p>
+                    </li>
+                    <li>
+                        <h1>Community Favorite</h1>
+                        <p>With 6.1K likes and followers, we're proud to be Roxas, Isabela's go-to spot for boneless fried chicken.</p>
+                    </li>
+                    <li>
+                        <h1>More Than Chicken</h1>
+                        <p>We also serve silog, pasta, burgers, coffee, and bubble tea &hyphen; a complete dining experience for everyone.</p>
+                    </li>
+                </ul>
+        </section>
+
+        <!--FLAVORS-->
+        <section id="flavors" class="fade-up">
+            <span class="section">OUR FLAVORS</span>
+            <h1 class="section-title">12 CHOICES <span>12 FLAVORS</span></h1>
+            <p class="section-description">From classic to adventurous &mdash; find your favorite.</p>
+            <ul>
+                <li>HONEY BUTTER</li>
+                <li>CHILI-CHIZ</li>
+                <li>TAKOYAKI</li>
+                <li>SALTED EGG</li>
+                <li>SWEET N' SPICY</li>
+                <li>SOY GARLIC</li>
+                <li>ORIGINAL "OG"</li>
+                <li>DAK MAYO</li>
+                <li>SIRACHA MAYO</li>
+                <li>YANGNYEOM</li>
+                <li>TEXAS BBQ</li>
+                <li>FIERY BUFFALO</li>
+            </ul>
+        </section>
+
+        <!--MENU-->
+        <section id="menu" class="fade-up">
+            <span class="section">MENU</span>
+            <h1 class="section-title">Chicken Box <span>no rice included</span></h1>
+            <div id="menu-container">
+
+                <div class="chicken-box">
+                    <h3>Medium Box
+                    <span>10 PCS</span></h3>
+                    <hr>
+                    <p>10 PCS / 2 FLAVORS <span>&mdash;</span></p>
+                </div>
+
+                <div class="chicken-box">
+                    <h3>Large Box
+                    <span>20 PCS</span></h3>
+                    <hr>
+                    <p> 20 PCS / 3 FLAVORS <span>&mdash;</span></p>
+                </div>
+
+                <div id="sulit-meal">
+                    <div>
+                        <h3>Sulit Meal
+                        <span>Best Seller</span></h3>
+                        <hr>
+                    </div>
+                    <p id="sulit-meal-1">
+                        <i class="fa-solid fa-circle-info"></i> 
+                        Unlimited Rice & Soup<br>
+                        <span>
+                            <i class="fa-solid fa-circle-exclamation"></i> 
+                            No sharing of chicken and rice
+                        </span>
+                    </p>
+                    <ul>
+                        <li> 5 PCS <span>₱199</span></li>
+                        <li> 4 PCS <span>₱169</span></li>
+                        <li> 3 PCS <span>₱149</span></li>
+                        <li> 2 PCS <span>₱110</span></li>
+                    </ul>
+                    <p id="sulit-meal-2">4 PCS & 5 PCS — choice of 2 flavors</p>
+                </div>
+            </div> 
+        </section>
+
+        <!--PARTY TRAYS-->
+        <section id="party-trays" class="fade-up">
+            <span class="section">PARTY TRAYS</span>
+            <h1 class="section-title">Up to 5 Flavors</h1>
+            <p class="section-description">Perfect for gatherings, events, and celebrations.</p>
+            <ul>
+                <li>
+                    <h1>30</h1>
+                    <p>PIECES</p>
+                    <div>
+                        <h2>₱960</h2>
+                        <p>₱32/pc</p>
+                    </div>
+                </li>
+                <li id="party-most-popular">
+                    <h1>40</h1>
+                    <p>PIECES</p>
+                    <div>
+                        <h2>₱1,280</h2>
+                        <p>₱32/pc</p>
+                    </div>
+                </li>
+                <li>
+                    <h1>50</h1>
+                    <p>PIECES</p>
+                    <div>
+                        <h2>₱1,600</h2>
+                        <p>₱32/pc</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!--SIDES-->
+        <section id="sides" class="fade-up">
+            <span class="section">SIDES</span>
+            <h1 class="section-title">Fries & Add-ons</h1>
+            <div class="side-menu-container">
+                <ul class="side-menu">
+                    <h3>Fries</h3>
+                    <hr>
+                    <li>Plain Fries<span>₱70</span></li>
+                    <li>Chiz Fries<span>₱70</span></li>
+                    <li>Sour Cream Fries<span>₱70</span></li>
+                    <li>BBQ Fries<span>₱70</span></li>
+                    <li>Loaded Fries<span>₱150</span></li>
+                </ul>
+
+                <ul class="side-menu">
+                    <h3>Add-ons</h3>
+                    <hr>
+                    <li>Rice<span>₱20</span></li>
+                    <li>Rice Platter<span>₱120</span></li>
+                    <li>Chiz Sauce<span>₱30</span></li>
+                    <li>Extra Sauce<span>₱30</span></li>
+                    <li>Mayo<span>₱20</span></li>
+                    <li>Gravy Small/Big<span>₱15/₱25</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--PINOY FAVORITES-->
+        <section id="pinoy-favorites" class="fade-up">
+            <span class="section">PINOY FAVORITES</span>
+            <h1 class="section-title">Silog & Platters</h1>
+            <div class="side-menu-container">
+                <ul class="side-menu">
+                    <h3>Silog Solo</h3>
+                    <hr>
+                    <li>Sisig Solo<span>₱95</span></li>
+                    <li>Tosilog<span>₱110</span></li>
+                    <li>Tapsilog<span>₱110</span></li>
+                    <li>Bagnet Silog<span>₱120</span></li>
+                    <li>Hungarian Silog<span>₱120</span></li>
+                </ul>
+
+                <ul class="side-menu">
+                    <h3>Platters</h3>
+                    <hr>
+                    <li>Letchon Kawali<span>₱250</span></li>
+                    <li>Sisig Platter<span>₱250</span></li>
+                    <li>Bagnet Kare-Kare<span>₱300</span></li>
+                </ul>
+
+                <ul class="side-menu">
+                    <h3>Pasta/Noodles</h3>
+                    <hr>
+                    <li>Pancit Canton<span>₱280</span></li>
+                    <li>Chopsuey<span>₱280</span></li>
+                    <li>Egg Soup<span>₱110</span></li>
+                    <li>Crab N' Corn Soup<span>₱120</span></li>
+                    <li>Spaghetti Solo<span>₱85</span></li>
+                    <li>Spaghetti w/ Chicken<span>₱130</span></li>
+                    <li>Spaghetti Platter<span>₱330</span></li>
+                    <li>Carbonara<span>₱120</span></li>
+                    <li>Carbonara Platter<span>₱350</span></li>
+                    <li>Canton Solo<span>₱99</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--BURGERS-->
+        <section id="burgers" class="fade-up">
+            <span class="section">BURGERS</span>
+            <h1 class="section-title">Burgers with Fries</h1>
+            <ul class="side-menu">
+                <li>Chicken Burger<span>₱120</span></li>
+                <li>Smash Burger<span>₱120</span></li>
+                <li>TLC Burger<span>₱130</span></li>
+                <li>Double Smash Burger<span>₱160</span></li>
+                <li>Smokey BBQ Burger<span>₱160</span></li>
+            </ul>
+        </section>
+
+        <!--REFRESHMENTS-->
+        <section id="drinks" class="fade-up">
+            <span class="section">REFRESHMENTS</span>
+            <h1 class="section-title">Drinks</h1>
+            <div class="side-menu-container">
+                <ul class="side-menu">
+                    <h3>Softdrinks</h3>
+                    <hr>
+                    <li>8 oz<span>₱20</span></li>
+                    <li>12 oz<span>₱25</span></li>
+                    <li>Mismo<span>₱25</span></li>
+                    <li>Kasalo<span>₱50</span></li>
+                    <li>1.5L<span>₱100</span></li>
+                </ul>
+
+                <ul class="side-menu">
+                    <h3>Juice & Iced Tea</h3>
+                    <hr>
+                    <li>Juice 16 oz<span>₱20</span></li>
+                    <li>Juice 22 oz<span>₱30</span></li>
+                    <li>Iced Tea 16 oz<span>₱20</span></li>
+                    <li>Iced Tea 22 oz<span>₱30</span></li>
+                    <li>Small Pitcher<span>₱45</span></li>
+                    <li>Large Pitcher<span>₱65</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--BEVERAGES-->
+        <section id="beverages" class="fade-up">
+            <span class="section">BEVERAGES</span>
+            <h1 class="section-title">Coffee & Bubble Tea</h1>
+            <div class="side-menu-container">
+                <ul class="side-menu">
+                    <h3>Hot/Iced Coffee</h3>
+                    <hr>
+                    <li>Caramel Macchiato<span>₱75/₱85</span></li>
+                    <li>Spanish Latte<span>₱75/₱85</span></li>
+                    <li>Vanilla Latte<span>₱75/₱85</span></li>
+                    <li>Almond Mocha<span>₱75/₱85</span></li>
+                </ul>
+
+                <ul class="side-menu">
+                    <h3>Latte & Soda</h3>
+                    <hr>
+                    <li>Strawberry Choco Latte<span>₱75/₱85</span></li>
+                    <li>Strawberry Latte<span>₱75/₱85</span></li>
+                    <li>Blueberry Latte<span>₱75/₱85</span></li>
+                    <li>Matcha Latte<span>₱75/₱85</span></li>
+                    <li>Blueberry Soda<span>₱65/₱75</span></li>
+                    <li>Starwberry Soda<span>₱65/₱75</span></li>
+                    <li>Green Apple Soda<span>₱65/₱75</span></li>
+                </ul>
+
+                <ul class="side-menu">
+                    <h3>Bubble Tea</h3>
+                    <hr>
+                    <p>Classic/Cheesecake</p>
+                    <li>Wintermelon<span>₱75/₱95 &middot; ₱90/₱110</span></li>
+                    <li>Okinawa<span>₱75/₱95 &middot; ₱90/₱110</span></li>
+                    <li>Triple Chocolate<span>₱80/₱100 &middot; ₱95/₱115</span></li>
+                    <li>Matcha<span>₱80/₱100 &middot; ₱95/₱115</span></li>
+                    <li>Oreo Cheesecake<span>₱105 &middot; ₱120</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--ORDER-->
+        <section id="order-section" class="fade-up">
+            <h1>Ready to Order?</h1>
+            <p>Call <span>+63 960 655 1691</span> or message us on Facebook</p>
+            <div>
+                <button id="call" onclick="contact()"><i class="fa-solid fa-phone"></i> Call Now</button>
+                <button id="message" onclick="messenger()"><i class="fa-brands fa-facebook-messenger"></i> Message Us</button>
+            </div>
+        </section>
+
+        <!--SPECIALTIES-->
+        <section id="specialties" class="fade-up">
+            <h1>Our Specialties</h1>
+            <hr>
+            <ul>
+                <li>Boneless fried chicken</li>
+                <li>Crispy skin &middot; juicy</li>
+                <li>12 signature flavors</li>
+            </ul>
+            <span><i class="fa-solid fa-thumbs-up"></i> 6.1K likes &middot; 6.1K followers</span>
+        </section>
+
+        <!--FOOTER-->
+        <footer>
+            <div>
+                <div id="footer-hero">
+                    <span><img src="images/logo/logo.jpg" alt="Chicken 88 Logo"><h1>CHICKEN 88</h1></span>
+                    <p>Super bonelss fired chicken</p>
+                    <p style="color: rgba(244, 246, 255, 0.5);margin-top: 0.5rem;"><i class="fa-solid fa-location-dot"></i> Roxas Branch &middot; Isabela</p>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/chicken88ph" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/chicken88ph?fbclid=IwY2xjawS7ColleHRuA2FlbQIxMABicmlkETE2NHc3bG5MeXlDZVVCMzZIc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvDLQHgg-vmnWzOva1bdjoYRDCaC1IATZP0CfZLVcRyqOSQ45X2PHGl8UGWJ_aem_zXbQgcspAGEQ7gFQB3eKuw" target="_blank">
+                                <i class="fa-brands fa-square-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.messenger.com/t/103085041960262/?messaging_source=source%3Apages%3Amessage_shortlink&source_id=1441792&recurring_notification=0" target="_blank">
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="quick-links">
+                    <h1><i class="fa-solid fa-link"></i> Quick Links</h1>
+                    <ul>
+                        <li><a href="#about-us">About Us</a></li>
+                        <li><a href="#flavors">Flavors</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#drinks">Drinks</a></li>
+                    </ul>
+                </div>
+
+                <div id="footer-contact">
+                    <h1><i class="fa-solid fa-address-book"></i> Contact</h1>
+                    <ul>
+                        <li><i class="fa-solid fa-phone"></i> +63 960 655 1691</li>
+                        <li><i class="fa-solid fa-envelope"></i> chicken88ph@yahoo.com</li>
+                        <li><i class="fa-solid fa-clock"></i> Open daily &middot; 10AM - 9PM</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p>&copy; 2026 Chicken 88 &middot; All rights reserve</p>
+        </footer>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
